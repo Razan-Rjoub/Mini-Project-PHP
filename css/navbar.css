@@ -1,0 +1,41 @@
+:root {
+    --main-color: #CAB06C;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.space {
+    width: 200px;
+    margin-left: 50px;
+}
+
+.nav-link {
+    color: black;
+}
+
+
+.link:hover,
+.active {
+    border-bottom: 6px solid var(--main-color);
+}
+
+.item {
+    padding: 30px;
+    font-size: 20px;
+    font-family: "EB Garamond", serif;
+    margin-left: 500px;
+
+}
+
+.nav-item{
+    margin-left: 80px;
+}
+
+.nav-sec {
+    margin-left: 20px;
+}
+

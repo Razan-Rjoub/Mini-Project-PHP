@@ -1,0 +1,183 @@
+.container {
+    margin-top: 80px;
+}
+
+.image-prod {
+    width: 200px;
+}
+
+.imagemain {
+    width: 800px;
+    margin-left: -50px;
+}
+
+.walk {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-top: 100px;
+    margin-left: -50px;
+}
+
+.shop {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -50px;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+.button {
+    background-color: white;
+    color: #CAB06C;
+    border: #CAB06C 3px solid;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: #CAB06C;
+    color: white;
+    border: #CAB06C;
+}
+
+.btn1 {
+    margin-left: -50px;
+}
+
+.btn2 {
+    margin-left: 20px;
+}
+
+.bi {
+    font-size: 30px;
+    color: #7e7255;
+}
+
+.icon-text {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -350px;
+}
+
+.bi-credit-card,
+.bi-clock-history,
+.bi-truck {
+    padding: 80px;
+   
+}
+
+.Txt {
+    font-size: 15px;
+ 
+}
+
+.form {
+    margin-left: 50px;
+}
+
+.product {
+    background-color: #e6e6e6;
+
+}
+
+.product h5 {
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.col form {
+    margin-left: 50px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.row {
+    justify-content: center;
+}
+
+.addbtn {
+    background-color: white;
+    color: #CAB06C;
+    border: #CAB06C 3px solid;
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+
+.addbtn:hover {
+    background-color: #CAB06C;
+    color: white;
+    border: #CAB06C;
+}
+
+
+
+.custom-table {
+    margin-top: 50px;
+   border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #fff;
+
+}
+
+.custom-table th {
+    background-color: #fff;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #fff;
+}
+
+.btn.btn-arrow2 {
+    color: #fff;
+    background-color: #787d62;
+
+    border-radius: .5;
+    margin-left: 200px;
+    margin-bottom: 10%;
+}
+
+.link-text {
+    color: white;
+}
+
+responsive .btn.btn-arrow1 {
+
+    margin-left: 80px;
+    margin-bottom: 5%;
+}
