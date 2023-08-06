@@ -24,8 +24,10 @@
                 <h1 class="walk">Walk, <br> With Pride & Freedom </h1>
                 <h4 class="shop">Shop the brand that you wish for and Customize Products <br> to your liking. Buy
                     Footwears at ease.</h4>
-                <button class="button btn1"> Add Product</button>
-                <button class="button btn2"> View Products</button>
+
+                <button class="button btn1"><a href="#addproduct">Add Product</a></button>
+                <button class="button btn2"><a href="viewProducts.php">View Products</a></button>
+
                 <div class="row">
 
                     <div class="icon-text">
@@ -79,22 +81,21 @@
                     <label for="canimg">Image :</label>
                 </div>
                 <div class="col-9">
-                    <input type="text" id="canimg" name="image" placeholder="Enter Image Link ..."
-                        value="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/air-force-1-07-shoes-rWtqPn.png">
-                        </div>
-
+                    <input type="text" id="canimg" name="image" placeholder="Enter Image Link ...">
                 </div>
-                <br>
-            
-                    <button type="submit" class="addbtn" name='submit'>Add to Products</button>
- 
+
+            </div>
+            <br>
+
+            <button type="submit" class="addbtn" name='submit'>Add to Products</button>
+
         </form>
     </div>
-    <table >
+    <table>
         <?php include 'tableProd.php' ?>
     </table>
     </div>
-
+    <?php include 'Footer.php' ?>
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

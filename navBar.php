@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav item">
                 <li class="nav-item ">
-                    <a class="nav-link link active" href="./Home.php">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link link " href="./Home.php">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link link " href="./viewProducts.php">Products</a>
@@ -31,6 +31,7 @@
             </ul>
         </div>
     </nav>
+ 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
